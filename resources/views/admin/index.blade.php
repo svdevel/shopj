@@ -1,5 +1,9 @@
 @extends('layouts.admin')
 
+@section('title')
+Tableau de bord
+@endsection
+
 @section('content')
 <div class="card py-5">
     <div class="card-body">
