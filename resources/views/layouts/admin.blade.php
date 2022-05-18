@@ -18,8 +18,8 @@
 
 
   <!-- Styles -->
-  <link href="{{ asset('admin/css/moncss.css') }}" rel="stylesheet">
-  <link href="{{ asset('admin/css/material-dashboard.css') }}" rel="stylesheet">
+  <link href="admin/css/moncss.css" rel="stylesheet">
+  <link href="admin/css/material-dashboard.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,10 +38,10 @@
 
 
   <!--Script dashbord admin -->
-    <script src="{{ asset('admin/js/jquery.min.js') }}" defer></script>
-    <script src="{{ asset('admin/js/popper.min.js') }}" defer></script>
-    <script src="{{ asset('admin/js/bootstrap-material-design.min.js') }}" defer></script>
-    <script src="{{ asset('admin/js/perfect-scrollbar.jquery.min.js') }}" defer></script>
+    <script src="admin/js/jquery.min.js" defer></script>
+    <script src="admin/js/popper.min.js" defer></script>
+    <script src="admin/js/bootstrap-material-design.min.js" defer></script>
+    <script src="admin/js/perfect-scrollbar.jquery.min.js" defer></script>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     @if (session('status'))
