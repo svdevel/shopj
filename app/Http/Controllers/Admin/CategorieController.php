@@ -66,6 +66,7 @@ class CategorieController extends Controller
             $photoname = time().'.'.$extension;
             $photo->move('assets/uploads/categories/', $photoname);
             $categorie->photo = $photoname;
+        }
 
         $categorie->name = $request->input('name');
         $categorie->slug = $request->input('slug');
@@ -77,8 +78,7 @@ class CategorieController extends Controller
         $categorie->meta_descrip = $request->input('meta_descrip');
         $categorie->update();
         return redirect('categories')->with('status',"La catégorie a été mettre à jour avec succès");
-            
-        }
+           
     }
 
     public function destroy(Categorie $categorie, $id)
