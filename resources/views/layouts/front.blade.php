@@ -16,11 +16,11 @@
   <!-- CSS Files -->
   <link href="../assets/css/material-dashboard.css" rel="stylesheet" />
   <!-- Styles -->
-  <link href="frontend/css/moncss.css" rel="stylesheet">
-  <link href="frontend/css/bootstrap5.css" rel="stylesheet">
+  <link href="/frontend/css/moncss.css" rel="stylesheet">
+  <link href="/frontend/css/bootstrap5.css" rel="stylesheet">
 
-  <link href="frontend/css/owl.carousel.min.css" rel="stylesheet">
-  <link href="frontend/css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="/frontend/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="/frontend/css/owl.theme.default.min.css" rel="stylesheet">
 
   <!-- Police Montserrat - google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,11 +48,11 @@
     @yield('content')
   </div>
   <!--Script frontend -->
-  <script src="frontend/js/jquery-3.6.0.min.js"></script>
-  <script src="frontend/js/bootstrap.bundle.min.js"></script>
-  <script src="frontend/js/owl.carousel.min.js"></script>
+  <script src="/frontend/js/jquery-3.6.0.min.js"></script>
+  <script src="/frontend/js/bootstrap.bundle.min.js"></script>
+  <script src="/frontend/js/owl.carousel.min.js"></script>
 
-  <script src="frontend/js/monjs.js" ></script>
+  <script src="/frontend/js/monjs.js" ></script>
 
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   @if (session('status'))
