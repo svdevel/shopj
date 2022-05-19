@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 return new class extends Migration
 {
@@ -13,6 +14,9 @@ return new class extends Migration
      */
     public function up()
     {
+
+        $statement = "ALTER TABLE categories AUTO_INCREMENT = 1;";
+        DB::unprepared($statement);
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
