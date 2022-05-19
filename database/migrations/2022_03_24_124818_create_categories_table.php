@@ -15,8 +15,7 @@ return new class extends Migration
     public function up()
     {
 
-        $statement = "ALTER TABLE categories AUTO_INCREMENT = 1";
-        DB::unprepared($statement);
+        DB::statement('ALTER TABLE categories AUTO_INCREMENT = 1000;');
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
