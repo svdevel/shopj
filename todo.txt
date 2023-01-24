@@ -1,11 +1,11 @@
-mysql://be428e46300b2f:16e88106@us-cdbr-east-05.cleardb.net/heroku_81993e3cca93480?reconnect=true
+mysql://b5cbc13f16c608:4c7127c3@us-cdbr-east-06.cleardb.net/heroku_e076f3a5a630e71?
 
 DB_CONNECTION=mysql
-DB_HOST=us-cdbr-east-05.cleardb.net
+DB_HOST=us-cdbr-east-06.cleardb.net
 DB_PORT=3306
-DB_DATABASE=heroku_81993e3cca93480
-DB_USERNAME=be428e46300b2f
-DB_PASSWORD=16e88106
+DB_DATABASE=heroku_e076f3a5a630e71?
+DB_USERNAME=b5cbc13f16c608
+DB_PASSWORD=4c7127c3
 
 
-base64:bGh0rn+PoGQCYZbisCSQweJp2hOhWYNjxR7kLC3pJMw=
+API_KEY= base64:bGh0rn+PoGQCYZbisCSQweJp2hOhWYNjxR7kLC3pJMw=
